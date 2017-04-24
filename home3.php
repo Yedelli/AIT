@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
 	
 
 	
@@ -99,7 +99,8 @@
 				<h2>SEARCH BY CITIES</h2>			
 			</div>
 		</div>
-		<div class="w3-row-padding">			
+		<div class="w3-row-padding">	
+		<div class="w3-container">
 			<div class="w3-col l3">
 				<div class="polaroid">
 				<img src="Home page pics/mumbai_img.png" style="width: 100%;" >	
@@ -107,7 +108,7 @@
 					<p>MUMBAI</p>
 					</div>
 				</div>
-			</div>
+			</div>		
 			<div class="w3-col l3">
 				<div class="polaroid">
 				<img src="Home page pics/delhi_img.png" style="width: 100%;">	
@@ -132,6 +133,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 		<hr>
 		<div class="w3-row-padding">
