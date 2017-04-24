@@ -1,0 +1,141 @@
+
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+	margin: 0;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+.img {
+	background-size: cover;
+	background-position: center;
+	background-image: url('../images/header.jpg');
+	height: 500px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  text-transform: uppercase;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: WHITE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: WHITE;
+}
+
+.topnav .icon {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+#img{
+position: centered;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.button {
+    background-color: transparent; 
+    color: black; 
+	 border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+	margin-left: 14%;
+	margin-top: 75px;
+}
+
+.button:hover {
+	
+    background-color:rgba(255, 255, 255, 0.5);
+    color: white;
+}
+.text {
+	color: WHITE;	
+	margin-top: 100px;
+}
+.text1 {
+	color: WHITE;
+}
+
+.footer {
+  position: static;
+  overflow: hidden;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+div.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+	
+	img {
+		width: 100%;
+	}
+	.button { 
+		width: 100%;
+		margin-top: 50px;
+		float: right;
+	}
+	
+	.text {
+	margin-top: 80px;
+	}
+
+}

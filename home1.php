@@ -110,19 +110,20 @@ position: centered;
 }
 .text {
 	color: WHITE;
-	margin-left: 30%;
+	margin-left: 33.33%;
 	margin-top: 120px;
 }
 .text1 {
 	color: WHITE;
-	margin-left: 30%;
+	margin-left: 33.33%;
 	
 }
 .heading {
-	margin-left:35%;
+	margin-left:33.33%;
 }
 .footer {
-  position: fixed;
+  position: static;
+  overflow: hidden;
   right: 0;
   bottom: 0;
   left: 0;
@@ -155,22 +156,24 @@ position: centered;
 		width: 220px;
 	}
 	.button { 
-		margin-left: 20%;
+		margin-left: 14%;
 		margin-top: 50px;
 	}
 	
 	.text {
 	margin-top: 80px;
-	margin-left: 10%;
+	margin-left: 8.33%;
+	width: 80%;
 	
 	}
 	.text1 {
-
-	margin-left: 10%;
+	width: 80%;	
+	margin-left: 8.33%;
 
 	}
 	.heading {
-		margin-left: 10%;
+		width: 80%;
+		margin-left: 8.33%;
 	}
 
 }
@@ -239,7 +242,11 @@ position: centered;
 
 	</section>
 	
+	<footer>
+	<div class="col-12">
 	<div class="footer">Click My Pic </div>
+	</div>
+	</footer>
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");

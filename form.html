@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<head>
+<body>
+	
+	<form>
+	  <fieldset>
+		<label>Full Name:</label>
+		<input type="text" name="name" placeholder="Full Name" required><br><br>
+		<label>Contact No:</label>
+		<input type="tel" name="phoneNo" placeholder="Contact Number" maxlength="10" pattern="[0-9]{10}" required><br><br>
+		<label>Email Id:</label>
+		<input type="email" name="emailId" placeholder="Email Id" required><br><br>
+		<label>Address:</label>
+		<textarea name="address" rows="5" cols="40"></textarea><br><br>
+		<label>Delivery Date:</label>
+		<input type="date" name="deliveryDate" required><br><br>
+		<label>Time of Delivery:</label>
+		<input type="time" name="timeDelivery" required><br><br>
+		<label>Quantity:</label>
+		<input type="range" min="0" max="100" required><br><br>
+		<label>Size:</label>
+		<input list="size" name="size">
+			<datalist id="size">
+				<option value="Small">
+				<option value="Medium">
+				<option value="Large">    
+			</datalist>
+		<br><br>
+		<label>Color:</label>
+		<input type="color" name="color" value="black" required><br><br>
+		<label>Image:</label>
+		<input type="file" name="image" required><br><br>
+		<input type="submit" value="Submit">
+	  </fieldset>
+	</form>
+	
+	
+</body>
+</html>
