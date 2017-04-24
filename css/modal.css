@@ -56,6 +56,21 @@
     cursor: pointer;
 }
 
+/* The Close Button */
+.close1 {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .modal-header {
     padding: 2px 16px;
      color: white;
