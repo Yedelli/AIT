@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
  <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
@@ -183,27 +183,8 @@
 
 </div>
 
-<!--Modal_login-->
-											<div class="modal fade" id="login" role="dialog">
-												<div class="modal-dialog">
-    
-													<!-- Modal content-->
-													<div class="modal-content">
-														<div class="modal-header">          
-															<h4 class="modal-title">Login</h4>
-														</div>
-														<div class="modal-body">
-															<p><div class="alert alert-danger">Are you Sure you want Delete?</p>
-																</div>
-														</div>
-														<div class="modal-footer">
-															<button class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">No</button>
-															<a href="admin_delete.php<?php echo '?id='.$id; ?>" class="btn btn-danger">Yes</a>
-														</div>				
-													</div>
-												</div>
-											</div>	
-	
+
+
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");

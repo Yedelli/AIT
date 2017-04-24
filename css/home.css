@@ -33,7 +33,7 @@ body {
 
 .topnav a:hover {
   background-color: rgba(255, 255, 255, 0.5);
-  color: WHITE;
+  color: #051939;
 }
 
 .topnav .icon {
@@ -71,7 +71,7 @@ position: centered;
 .button:hover {
 	
     background-color:rgba(255, 255, 255, 0.5);
-    color: white;
+    color: #051939;
 }
 .text {
 	color: WHITE;	
