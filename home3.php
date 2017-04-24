@@ -140,12 +140,12 @@
 			<div class="w3-row-padding">	
 		
 			<div class="w3-col l4">
-				<div class="polaroid">
+				<a href="profile.php"><div class="polaroid">
 				<img src="images/3.gif" style="width: 100%;" >	
 					<div class="container">
 					<p>RR PHOTOGRAPHERS</p>
 					</div>
-				</div>
+				</div></a>
 			</div>		
 			<div class="w3-col l4">
 				<div class="polaroid">
