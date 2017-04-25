@@ -18,10 +18,7 @@
     float: left;
     padding: 15px;
 }
-html {
-    
-   }
-   
+
 .img {
     background-color: #6D6D5E;
     color: #ffffff;

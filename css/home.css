@@ -1,14 +1,14 @@
 
 
 html {
-    font-family: "Lucida Sans", sans-serif;
+    
 	margin-left: 15px;
 	margin-right: 10px;
 }
 
 body {
 	
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Merriweather', 'Helvetica Neue', 'Arial', 'sans-serif';
 }
 
 .w3-responsive{overflow-x:auto}
@@ -107,8 +107,9 @@ position: centered;
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  background-color: #051939;
   text-align: center;
+  color: WHITE;
 }
 
 div.polaroid {

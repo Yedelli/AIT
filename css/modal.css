@@ -43,7 +43,7 @@
 
 /* The Close Button */
 .close {
-    color: black;
+    color: red;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -58,7 +58,7 @@
 
 /* The Close Button */
 .close1 {
-    color: black;
+    color: red;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -73,7 +73,7 @@
 
 /* The Close Button */
 .close2 {
-    color: black;
+    color: red;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -88,7 +88,7 @@
 
 /* The Close Button */
 .close3 {
-    color: black;
+    color: red;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -103,7 +103,7 @@
 
 /* The Close Button */
 .close4 {
-    color: black;
+    color: red;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -118,7 +118,7 @@
 
 /* The Close Button */
 .close5 {
-    color: black;
+    color: red;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -159,3 +159,45 @@ text-decoration:none;
    margin-right:auto;
    width:60%;
 }
+.modal-header1 {
+    padding: 2px 16px;
+    background-color: #051939;
+    color: white;
+}
+
+#loginbtn {
+    background-color: #051939 ; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+	margin: auto;
+}
+#signUpbtn {
+    background-color: #051939 ; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+	margin: auto;
+}
+#signUpbtn,#makeProfile {
+    background-color: #051939 ; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+	margin: auto;
+}
+
+
+
