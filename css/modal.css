@@ -159,6 +159,12 @@ text-decoration:none;
    margin-right:auto;
    width:60%;
 }
+   input{
+    border-radius: 5px;
+    padding: 8px;
+	color:;
+}
+
 .modal-header1 {
     padding: 2px 16px;
     background-color: #051939;

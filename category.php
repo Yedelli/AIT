@@ -1,121 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- home -->
+
+
+	<!-- home -->
 	<link rel="stylesheet" href="css/home.css">
 	
-<style>
+	<!-- modal -->
+	<link rel="stylesheet" href="css/modal.css">
 
+
+<script>function updateTextInput(val){
+document.getElementById('textInput').value=val;}
+</script>
+<style>
 .img1 {
 	background-size: cover;
 	background-position: center;
 	background-image: url('images/header.jpg');
 	
 }
-* {
-    box-sizing: border-box;
-}
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
+.orange{
+color:#F48A12;}
 
-.img {
-    background-color: #6D6D5E;
-    color: #ffffff;
-    padding: 15px;
-
-    width: 100%;
-    height: 400px;
-    background-image: url('images/child.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-	
-
-.image1 {
-    border-radius:100%;
-	 padding: 40px;
-	 
-	background-image: url('images/man.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
-	width:100px;
-	height:100px;
-}
-.box {
-    width: 100%;
-    height: auto;
-	 padding: 10px;
-	 padding-right:120px;
-    border: #B0C4E3;
-	text-align:center;
-	
-}
-.main {
-    width: 75%;
-    float: right;
-    padding: 15px;
-	color:#051939;
-   font-size:25px;
-}
-.main1 {
-    color:#F48A12;
-	   
-}
-.button {
-    background-color: #F48A12 /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
+.input[type=text], select,input {
+    width: 15%;
+    padding: 10px 20px;
+    margin: 8px 0;
     display: inline-block;
-    font-size: 20px;
-    margin: 40px 750px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-	
-}
-.button1 {
-    background-color: #051939; 
-    color: white; 
-	padding: 10px 20px;
-	padding-right:40px;
-    border: 2px solid #051939;
-	display: inline-block;
-	 font-size: 35px;
-	 text-align:center;
-    margin: 40px 10px;
-	width:100%;
-	height:auto;
-	
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+
 }
 
-.button1:hover {
-    background-color: white;
-    color: #051939;
+.form1 {
+    border-radius: 5px;
+    padding: 20px;
+	color:#F48A12;
 }
-.imgpart {
-    width: 100%;
-    height: 100%;
-	 padding: 20px;
-    border: #B0C4E3;
-     color:#051939;}
- 
- div.gallery {
-    margin: 13px;
+div.gallery {
+    margin: 18px;
     border: 1px solid #ccc;
     float: left;
     width: 300px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 div.gallery:hover {
@@ -124,69 +52,12 @@ div.gallery:hover {
 
 div.gallery img {
     width: 100%;
-    height: 200px;
+    height: auto;
 }
 
-
-
- table {
-    border-collapse: collapse;
-    width: 100%;
-	
-	
-}
-
-th, td {
-    padding: 20px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-	font-size:20px;
-}
-
-tr:hover{background-color:#F8DDC5;}
-
-.blue{
-color:#152055;}
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-}
-@media screen and (max-width: 880px) {
-    li {
-               float: top;
-               text-align: center;
-               width: 100%;
-               display: block;
-       }}
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
 
 .padding {
@@ -194,10 +65,10 @@ color:#152055;}
 	padding-right: 25px;
 }
 
-
 </style>
 </head>
 <body>
+
 <header>
 	
 	<div class="w3-row-padding">
@@ -217,141 +88,117 @@ color:#152055;}
 			</div>		
 		</div>
 	</div>
-	
-	<div class="img w3-row-padding"></div>
 	</header>
 	
-
-<div class="row">
 <br>
-<div class="col-12 col-m-12">
-<div class="box"><br>
-<div class="main">
-We Frame your special moments because we don't take a photograph we make it!!!<br></div>
-</div>
-
-<div class=" button1">Hire Me</div>
+<div class="orange">
+<h1>Wedding Photographers</h1> 
 
 </div>
-
-</div>
-<div class="blue">
-<h1>Recent Work Of RR Photography</h1>
-</div>
-<div class="row">
-<div class="gallery">
-  <a target="_blank" href="images/3.gif">
-    <img src="images/3.gif" alt="Trolltunga Norway" style="width:500; height:400">
+<div class="form1">
+ <form action="/action_page.php">
+ <label for="Category">Type of Photographer</label>
+    <select id="Type of Photographer" name="Type of Photographer">
+      <option value="Wedding">Wedding</option>
+      <option value="Commercial">Commercial</option>
+      <option value="Fashion">Fashion</option>
+	  <option value="Kids">Kids</option>
+    </select>
+	
+<label for="City">City</label>
+    <select id="City" name="City">
+      <option value="Pune">Pune</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Delhi">Delhi</option>
+	  <option value="Chennai">Chennai</option>
+    </select>
+	<label for="Price">Price</label>
+	<input id="slider1" type="range" min="0" max="30000" step="10" onchange="updateTextInput(this.value);" />
+	 <input type="text" id="textInput" value=""><br><br>
+	 </form>
+ </div> 
+ <!--<div class="gallery">
+  <a href="profile.php">
+    <img src="images/3.gif" alt="profile" width="500" height="500">
   </a>
-  
+  <div class="desc">RR Photography<br>South West,T.T nagar,Delhi</div>
 </div>
-
-<div class="gallery">
-  <a target="_blank" href="images/8.gif">
-    <img src="images/8.gif" alt="Forest" width="200" height="400">
+ <div class="gallery">
+  <a href="profile.php">
+    <img src="images/4.gif" alt="profile" width="500" height="500">
   </a>
-  
+  <div class="desc">RR Photography<br>South West,T.T nagar,Delhi</div>
 </div>
-
-<div class="gallery">
-  <a target="_blank" href="images/9.gif">
-    <img src="images/9.gif" alt="Northern Lights" width="200" height="400">
+ <div class="gallery">
+  <a href="profile.php">
+    <img src="images/7.gif" alt="profile" width="500" height="500">
   </a>
-  
+  <div class="desc">RR Photography<br>South West,T.T nagar,Delhi</div>
 </div>
-
-
-<div class="gallery">
-  <a target="_blank" href="images/4.gif">
-    <img src="images/4.gif" alt="Mountains" width="200" height="400">
-  </a>
-  
-</div>
-</div>
-<div class="row">
-<div class="gallery">
-  <a target="_blank" href="images/5.gif">
-    <img src="images/5.gif" alt="Mountains" width="200" height="400">
-  </a>
-  
-</div>
-<div class="gallery">
-  <a target="_blank" href="images/11.gif">
-    <img src="images/11.gif" alt="Mountains" width="200" height="400">
-  </a>
-  
-</div>
-<div class="gallery">
-  <a target="_blank" href="images/2.gif">
-    <img src="images/2.gif" alt="Mountains" width="200" height="400">
-  </a>
-  
-</div>
-<div class="gallery">
-  <a target="_blank" href="images/camera.jpg">
-    <img src="images/camera.jpg" alt="Mountains" width="200" height="400">
-  </a>
-  
-</div>
-
-</div>
-<br><br>
-<br>
-<br>
-<div class="blue">
-<table>
-  <tr>
-    <th>Professional Information</th>
-    
-  </tr>
-  <tr>
-    <td>Awards</td>
-    <td></td>
-    <td>Well has become on the top five out of 1000 Submission in Mumbai Documentary festival</td>
-  </tr>
-  <tr>
-    <td>Established since</td>
-    <td></td>
-    <td>2011</td>
-  </tr>
-  <tr>
-    <td>City</td>
-    <td></td>
-    <td>Delhi</td>
-  </tr>
-  <tr>
-    <td>No. of photographers</td>
-    <td></td>
-    <td>7</td>
-  </tr>
- 
-</table>
-<br>
-<br>
-<table>
-  <tr>
-   <th>Services</th>
-    
-  </tr>
-  <tr>
-    <td>Open to Travel</td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Type of Service</td>
-    <td></td>
-    <td>Cinematography , Video Editing , Photo Editing , Photography</td>
-  </tr>
-  <tr>
-    <td>Specialization</td>
-    <td></td>
-    <td>Candid Weddings , Destinations Weddings and all types of portfolios, be it Kids Portfolio, Models Portfolio, Fashion Photography,
-	Candid Weddings , Abstract Photography, Product Photography, Event Photography and Fashion Photography Worldwide</td>
-  </tr>
- 
-</table>
-</div>
+-->
+<div class="w3-row-padding padding">	
+		
+			<div class="w3-col l4">
+				<a href="profile.php">
+				<div class="polaroid">
+				<img src="images/3.gif" style="width: 100%;" >	
+					<div class="container">
+					<p>RR PHOTOGRAPHERS</p>
+					</div>
+				</div></a>
+			</div>		
+			<div class="w3-col l4">
+				<a href="profile.php">
+				<div class="polaroid">
+				<img src="images/4.gif" style="width: 100%;">	
+					<div class="container">
+					<p>CUTE KIDS</p>
+					</div>
+				</div></a>
+			</div>
+			<div class="w3-col l4">
+				<a href="profile.php">
+				<div class="polaroid">
+				<img src="images/7.gif" style="width: 100%;">	
+					<div class="container">
+					<p>AWESOME</p>
+					</div>
+				</div></a>
+			</div>			
+		
+		</div>
+		<br>
+<div class="w3-row-padding padding">	
+		
+			<div class="w3-col l4">
+				<a href="profile.php">
+				<div class="polaroid">
+				<img src="images/9.gif" style="width: 100%;" >	
+					<div class="container">
+					<p>PHOTOGRAPHERS</p>
+					</div>
+				</div></a>
+			</div>		
+			<div class="w3-col l4">
+				<a href="profile.php">
+				<div class="polaroid">
+				<img src="images/10.gif" style="width: 100%;">	
+					<div class="container">
+					<p>ASHISH STUDIOS</p>
+					</div>
+				</div></a>
+			</div>
+			<div class="w3-col l4">
+				<a href="profile.php">
+				<div class="polaroid">
+				<img src="images/11.gif" style="width: 100%;">	
+					<div class="container">
+					<p>TRADITIONAL</p>
+					</div>
+				</div></a>
+			</div>			
+		
+		</div>
 <footer>
 	<div class="col-12">
 	<div class="footer">Click My Pic &copy; 2017 </div>
