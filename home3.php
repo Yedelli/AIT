@@ -32,6 +32,7 @@
 					<a href="#home">Home</a>					
 					<a href="#news">About</a>
 					<a href="#contact">Contact</a>
+					<a href="#contact">Help</a>
 					<a  id="modal">Login</a>
 					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>			
 				</div>
@@ -88,6 +89,7 @@
 			</div>
 		</div>
 		<hr>
+		
 		<div class="w3-row-padding">
 			<div class="w3-col l4"><p></p></div>
 			<div class="w3-col s12 l4">
@@ -169,7 +171,7 @@
 		</div>
 		
 		<hr>
-		<div class="w3-row-padding">
+		<!--<div class="w3-row-padding">
 			
 			<div class="w3-col s10 l6">
 				<h2>ABOUT</h2>			
@@ -178,7 +180,7 @@
 			<div class="w3-col s10 l6">
 				<h2>CONTACT US</h2>			
 			</div>
-		</div>
+		</div>-->
 	</div>
 
 	</section>
@@ -211,7 +213,7 @@
 	<div id="myModal1" class="modal">
 	<!-- Modal content -->
 	<div class="modal-content">
-		<div class="modal-header">
+		<div class="modal-header1">
 			<span class="close1">&times;</span>
 			<h2>CLICK MY PIC</h2>
 		</div>
@@ -220,7 +222,7 @@
 			<div class="w3-section">
 				<input class="w3-input w3-border w3-margin-bottom" type="email" placeholder="Enter Email Id" name="email" required style="width:100%"><br><br>		  	  
 				<input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" required style="width:100%"><br><br>
-				<input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember Me <br><br>		  
+				<!--<input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember Me <br><br>-->
 				<button class="w3-button w3-block w3-green w3-section w3-padding" id="loginbtn" type="submit">Login</button>		
 				<p> New to Click My Pic? <a href="#" id="signup1"> Sign Up</a></p>
 			</div>
@@ -233,7 +235,7 @@
 	<div id="myModal2" class="modal"
 	<!-- Modal content -->
 	<div class="modal-content">
-		<div class="modal-header">
+		<div class="modal-header1">
 			<span class="close2">&times;</span>
 			<h2>CLICK MY PIC</h2>
 		</div>
@@ -246,9 +248,9 @@
 					<input class="w3-input w3-border w3-margin-bottom" type="tel" placeholder="Enter Contact No" name="contactNo" required style="width:100%"><br><br>			
 					<input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" required style="width:100%"><br><br>	
 					<input class="w3-input w3-border" type="password" placeholder="Confirm Password" name="confirmPassword" required style="width:100%"><br><br>
-					<input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Tell me about Click My Pic News <br><br>			
+					<!--<input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Tell me about Click My Pic News <br><br>-->
 					<button class="w3-button w3-block w3-green w3-section w3-padding" id="signUpbtn" type="submit">Sign Up</button><br>		  
-					<p> Already a member? <a href="#" id="login1"> Login</a></p>
+					<!--<p> Already a member? <a href="#" id="login1"> Login</a></p>-->
 				</div>
 			</form>
 		</div>
@@ -259,7 +261,7 @@
 	<div id="myModal3" class="modal">
 	<!-- Modal content -->
 	<div class="modal-content">
-		<div class="modal-header">
+		<div class="modal-header1">
 			<span class="close3">&times;</span>
 			<h2>CLICK MY PIC</h2>
 		</div>
@@ -268,7 +270,7 @@
 			<div class="w3-section">
 				<input class="w3-input w3-border w3-margin-bottom" type="email" placeholder="Enter Email Id" name="email" required style="width:100%"><br><br>		  	  
 				<input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" required style="width:100%"><br><br>
-				<input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember Me <br><br>		  
+				<!--<input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember Me <br><br>-->
 				<button class="w3-button w3-block w3-green w3-section w3-padding" id="loginbtn" type="submit">Login</button>		
 				<p> New to Click My Pic? <a href="#" id="signup2"> Sign Up</a></p>
 			</div>
@@ -281,7 +283,7 @@
 	<div id="myModal4" class="modal">
 	<!-- Modal content -->
 	<div class="modal-content">
-		<div class="modal-header">
+		<div class="modal-header1">
 			<span class="close4">&times;</span>
 			<h2>CLICK MY PIC</h2>
 		</div>
@@ -295,9 +297,9 @@
 					<input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" required style="width:100%"><br><br>		  
 					<input class="w3-input w3-border" type="password" placeholder="Confirm Password" name="confirmPassword" required style="width:100%"><br><br>		  
 					<button class="w3-button w3-block w3-green w3-section w3-padding" id="makeProfile" name="makeProfile" type="submit">Make Profile</button><br>
-					<input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Tell me about Click My Pic News <br><br>		 
+					<!--<input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Tell me about Click My Pic News <br><br>-->
 					<button class="w3-button w3-block w3-green w3-section w3-padding" id="signUpbtn" type="submit">Sign Up</button><br>		  
-					<p> Already a member? <a href="#" id="login2"> Login</a></p>
+					<!--<p> Already a member? <a href="#" id="login2"> Login</a></p>-->
 				</div>
 			</form>	
 		</div>
