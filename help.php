@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- home -->
+	<link rel="stylesheet" href="css/home.css">
+	
 <style> 
-
+.img1 {
+	background-size: cover;
+	background-position: center;
+	background-color: #051939;
+	
+}
 div {
    
    color: #14525F;
@@ -29,6 +37,27 @@ background-color: #6D6D5E;
 </style>
 </head>
 <body>
+<header>
+	
+	<div class="w3-row">
+		<img src="images/logo3.png">
+		
+		<div class="img1">
+			<div class="w3-row">
+				<div class="topnav" id="myTopnav">
+					<a href="home.php">Home</a>					
+					<a href="about.php">About</a>
+					<a href="contact.php">Contact</a>
+					
+					
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>			
+				</div>
+				
+			</div>		
+		</div>
+	</div>
+	</header>
+
 <div class="img">
 <div>
 <h1>  Help</h1>
