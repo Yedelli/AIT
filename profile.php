@@ -84,8 +84,13 @@
     cursor: pointer;
 	
 }
+<<<<<<< HEAD
+#button1 {
+    background-color: #F48A12; 
+=======
 .button1 {
     background-color: #051939; 
+>>>>>>> 49f197b0f478372a707b8d03a0757096ae4c05e3
     color: white; 
 	padding: 10px 20px;
 	padding-right:40px;
@@ -99,7 +104,7 @@
 	
 }
 
-.button1:hover {
+#button1:hover {
     background-color: white;
     color: #051939;
 }
@@ -229,12 +234,105 @@ color:#152055;}
 <div class="main">
 We Frame your special moments because we don't take a photograph we make it!!!<br></div>
 </div>
+<div>
+<button id="button1">Hire Me</button>
 
-<div class=" button1">Hire Me</div>
+    <!-- Hire Me -->
+	<!-- The Modal -->
+<div id="myModal5" class="modal">
+
+<<<<<<< HEAD
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close5">&times;</span>
+      <h3 style="color:red">&nbsp;&nbsp;&nbsp;&nbsp;Send Enquiry</h3>
+	  
+    </div>
+    <div class="modal-body">
+	
+	<form class="form" action="/action_page.php">
+
+        <div class="w3-section">
+
+		 <label>
+        <input id="photographerType" name="photographerType" list="type" type="text" placeholder="Photographer Type" style="width:100%" required> 
+        <datalist id="type"> 
+        	<option value="Wedding Photographer" ></option> 
+        	<option value="Fashion Photographer" ></option> 
+        	<option value="Commercial Photographer" ></option> 
+        	<option value="Kids Photographer" ></option> 
+        	
+        </datalist>
+		</label><br><br>
+
+        <input type="text" id="city" name="type" placeholder="City" style="width:100%" required> <br><br>
+
+        <label>
+        <input id="budget" name="budget" list="budgetlist" type="text" placeholder="Budget" style="width:100%" required> 
+        <datalist id="budgetlist"> 
+        	<option value="Less than Rs 5000" ></option> 
+        	<option value="Rs 5000 to Rs 15000" ></option> 
+        	<option value="Rs 15000 to Rs 25000" ></option> 
+        	<option value="More than Rs 25000" ></option> 
+        	
+        </datalist>
+		</label><br><br>
+		
+		<textarea type="text" id="address" rows="5" cols="10" placeholder="Please describe your requirements." required style="width:100%"></textarea><br><br>
+		
+		<input type="text" id="fullName" name="fullName" placeholder="Full Name" style="width:100%" required> <br><br>
+		
+		<input type="email" id="email" name="email" placeholder="Email Id" style="width:100%" required> <br><br>
+		
+		<input type="tel" id="contactNo" placeholder="Enter Contact No" name="contactNo" required style="width:100%"><br><br>
+		
+		<button class="w3-button w3-block w3-green w3-section w3-padding" id="sendEnquiry" type="submit">Send Enquiry</button><br>
+		    
+	     </div>
+
+      </form>
+
+      </div>
+   
+  </div>
 
 </div>
 
+<script>
+// Get the modal
+var modal = document.getElementById('myModal5');
+
+// Get the button that opens the modal
+var btn = document.getElementById("button1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+=======
 </div>
+
+</div>
+>>>>>>> 49f197b0f478372a707b8d03a0757096ae4c05e3
 <div class="blue">
 <h1>Recent Work Of RR Photography</h1>
 </div>
