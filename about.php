@@ -35,7 +35,7 @@ background-color: #6D6D5E;
 <br>
 <div class="floating-box">
 
-<p>We are passionate team who wants to make the job of hiring photographer easier and also at same time providing a platform for photographers to showcase their talent.</p>
+<p>We are a passionate team who wants to make the job of hiring photographers easier and at the same time provide a platform for photographers to showcase their talent.</p>
  We will help you in finalizing your requirement, shortlisting photographers and finally selecting the right one.<br>
 <h2>Our Team:</h2>
 <h3>Rohini Yedelli</h3>
