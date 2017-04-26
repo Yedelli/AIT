@@ -22,7 +22,7 @@ input[type=text], input[type=email],input[type=tel]{
     outline: none;
 }
 
-input[type=text],input[type=email],input[type=tel]:focus {
+input:focus {
     border: 3px solid #555;
 }
 .text
