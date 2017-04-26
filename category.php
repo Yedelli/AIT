@@ -5,10 +5,6 @@
 
 	<!-- home -->
 	<link rel="stylesheet" href="css/home.css">
-
-<script>function updateTextInput(val){
-document.getElementById('textInput').value=val;}
-</script>
 <style>
 
 
@@ -596,6 +592,10 @@ div.desc {
 
 </div>
 
+
+<script>function updateTextInput(val){
+document.getElementById('textInput').value=val;}
+</script>
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
