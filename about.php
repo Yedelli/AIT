@@ -23,7 +23,7 @@ background-color: #6D6D5E;
 
     width: 100%;
     height: 600px;
-    background-image: url('web.gif');
+    background-image: url('images/web.gif');
     background-repeat: no-repeat;
     background-size: cover;}
 </style>
