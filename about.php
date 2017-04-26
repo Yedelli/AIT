@@ -40,7 +40,7 @@ background-color: #6D6D5E;
 <h2>Our Team:</h2>
 <h3>Rohini Yedelli</h3>
 <h3>Radhika Raghuwanshi</h3>
-<h3>Krima Shaha</h3>
+<h3>Krima Shah</h3>
 </div>
 </div>
 </div>
