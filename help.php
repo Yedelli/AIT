@@ -72,6 +72,11 @@ background-color: #6D6D5E;
 </div>
 </div>
 </div>
+<footer>
+	<div class="col-12">
+	<div class="footer">Click My Pic &copy; 2017 </div>
+	</div>
+	</footer>
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
