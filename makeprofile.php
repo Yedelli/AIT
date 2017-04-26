@@ -44,7 +44,7 @@
 </head>
 <body>
 <div>
-<form class="form" action="/action_page.php">
+<form class="form" action="home.php">
 <h4 align="center" style="color:red" > Make Profile</h4>
         <div class="w3-section">
         
