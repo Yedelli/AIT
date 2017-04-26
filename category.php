@@ -5,15 +5,235 @@
 
 	<!-- home -->
 	<link rel="stylesheet" href="css/home.css">
-	
-	<!-- modal -->
-	<link rel="stylesheet" href="css/modal.css">
-
 
 <script>function updateTextInput(val){
 document.getElementById('textInput').value=val;}
 </script>
 <style>
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+.modal-dialog{
+    overflow-y: initial;
+}
+.modal-body{
+    height: auto;
+    overflow-y: auto;
+}
+
+.modal-dialog1{
+    overflow-y: initial;
+}
+.modal-body1{
+    height: 400px;
+    overflow-y: auto;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Close Button */
+.close1 {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Close Button */
+.close2 {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Close Button */
+.close3 {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Close Button */
+.close4 {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Close Button */
+.close5 {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close5:hover,
+.close5:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    padding: 2px 16px;
+     color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.needPhoto,#photographer {
+    background-color: #051939 ; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.needPhoto:hover,#photographer:hover {
+cursor:pointer;
+text-decoration:none;
+}
+
+.form {
+   margin-left:auto;
+   margin-right:auto;
+   width:60%;
+}
+   input{
+    border-radius: 5px;
+    padding: 8px;
+	color:;
+}
+
+.modal-header1 {
+    padding: 2px 16px;
+    background-color: #051939;
+    color: white;
+}
+
+#loginbtn {
+    background-color: #051939 ; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+	margin: auto;
+}
+#signUpbtn {
+    background-color: #051939 ; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+	margin: auto;
+}
+#signUpbtn,#makeProfile,#getQuotes {
+    background-color: #051939 ; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+	margin: auto;
+}
+
 .img1 {
 	background-size: cover;
 	background-position: center;
@@ -23,7 +243,7 @@ document.getElementById('textInput').value=val;}
 .orange{
 color:#051939;}
 
-.input[type=text], select,input {
+.input[type=text], select {
     width: 15%;
     padding: 10px 20px;
     margin: 8px 0;
@@ -34,11 +254,7 @@ color:#051939;}
 
 }
 
-.form1 {
-    border-radius: 5px;
-    padding: 20px;
-	color:#051939;
-}
+
 div.gallery {
     margin: 18px;
     border: 1px solid #ccc;
