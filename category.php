@@ -17,7 +17,7 @@ document.getElementById('textInput').value=val;}
 .img1 {
 	background-size: cover;
 	background-position: center;
-	background-image: url('images/header.jpg');
+	background-color: #051939;
 	
 }
 .orange{
@@ -92,7 +92,7 @@ div.desc {
 	
 <br>
 <div class="orange">
-<h1>Wedding Photographers</h1> 
+<h1> Photographers</h1> 
 
 </div>
 <div class="form1">

@@ -10,7 +10,7 @@
 .img1 {
 	background-size: cover;
 	background-position: center;
-	background-image: url('images/header.jpg');
+	background-color: #051939;
 	
 }
 * {

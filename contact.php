@@ -22,7 +22,7 @@ input[type=text], input[type=email],input[type=tel]{
     outline: none;
 }
 
-input[type=text],input[type=email],input[type=tel]:focus {
+input:focus {
     border: 3px solid #555;
 }
 .text
@@ -36,7 +36,7 @@ background-color: #6D6D5E;
 
     width: 100%;
     height: 600px;
-    background-image: url('web.gif');
+    background-image: url('images/web.gif');
     background-repeat: no-repeat;
     background-size: cover;}
 </style>
