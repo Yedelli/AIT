@@ -21,7 +21,7 @@ document.getElementById('textInput').value=val;}
 	
 }
 .orange{
-color:#F48A12;}
+color:#051939;}
 
 .input[type=text], select,input {
     width: 15%;
@@ -37,7 +37,7 @@ color:#F48A12;}
 .form1 {
     border-radius: 5px;
     padding: 20px;
-	color:#F48A12;
+	color:#051939;
 }
 div.gallery {
     margin: 18px;

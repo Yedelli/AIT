@@ -127,6 +127,23 @@ div.gallery img {
     width: 100%;
     height: 200px;
 }
+ 
+ div.gallery1 {
+    margin: 13px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+	
+}
+
+div.gallery1:hover {
+    border: 1px solid #777;
+}
+
+div.gallery1 img {
+    width: 100%;
+    height: 200px;
+}
 
 
 
@@ -225,17 +242,24 @@ color:#152055;}
 
 <div class="row">
 <br>
-<div class="col-12 col-m-12">
+<div class="w3-row">
+<div class="w3-col l3">
+<div class="gallery1">
+	<img src="images/man.gif" alt="" style="width:500; height:400">
+	<h1>RR Photography</h1>
+</div>
+</div>
+<div class="w3-col l9">
 <div class="box"><br>
 <div class="main">
-We Frame your special moments because we don't take a photograph we make it!!!<br></div>
+We Frame your special moments because we don't take a photograph we make it!!!<br><br><br></div>
 </div>
 <div>
 <button id="button1">Hire Me</button>
 
  
 </div>
-
+</div>
 </div>
 
 <div class="blue">
