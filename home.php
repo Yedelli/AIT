@@ -229,7 +229,7 @@
 			<h2>CLICK MY PIC</h2>
 		</div>
 		<div class="modal-body">
-			<form class="form" action="/action_page.php">
+			<form class="form" action="home.php">
 			<div class="w3-section">
 				<input class="w3-input w3-border w3-margin-bottom" type="email" placeholder="Enter Email Id" name="email" required style="width:100%"><br><br>		  	  
 				<input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" required style="width:100%"><br><br>
@@ -251,7 +251,7 @@
 			<h2>CLICK MY PIC</h2>
 		</div>
 		<div class="modal-body">
-			<form class="form" action="/action_page.php">
+			<form class="form" action="home.php">
 				<div class="w3-section">
 					<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter First Name" name="firstName" required style="width:100%"><br><br>
 					<input class="w3-input w3-border w3-margin-top" type="text" placeholder="Enter Last Name" name="lastName" required style="width:100%"><br><br>
@@ -277,7 +277,7 @@
 			<h2>CLICK MY PIC</h2>
 		</div>
 		<div class="modal-body">
-			<form class="form" action="/action_page.php">
+			<form class="form" action="home.php">
 			<div class="w3-section">
 				<input class="w3-input w3-border w3-margin-bottom" type="email" placeholder="Enter Email Id" name="email" required style="width:100%"><br><br>		  	  
 				<input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" required style="width:100%"><br><br>
@@ -299,7 +299,7 @@
 			<h2>CLICK MY PIC</h2>
 		</div>
 		<div class="modal-body">		
-			<form class="form" action="">
+			<form class="form" action="home.php">
 				<div class="w3-section">
 					<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter First Name" name="firstName" required style="width:100%"><br><br>
 					<input class="w3-input w3-border w3-margin-top" type="text" placeholder="Enter Last Name" name="lastName" required style="width:100%"><br><br>		 
@@ -329,7 +329,7 @@
     </div>
     <div class="modal-body1">
 	
-	<form class="form" action="/action_page.php">
+	<form class="form" action="home.php">
 
         <div class="w3-section">
 
