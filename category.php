@@ -17,7 +17,7 @@ document.getElementById('textInput').value=val;}
 .img1 {
 	background-size: cover;
 	background-position: center;
-	background-image: ;
+	background-color: #051939;
 	
 }
 .orange{
