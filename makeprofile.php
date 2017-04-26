@@ -62,11 +62,17 @@
 				
 		<textarea type="text" id="awards" rows="5" cols="20" placeholder="Awards." name="awards" required style="width:100%"></textarea><br><br>
 		
+		<input type="text" id="establishedSince" name="establishedSince" placeholder="Established Since" style="width:100%" required> <br><br>
+		
+		<input type="text" id="city" name="city" placeholder="City" style="width:100%" required> <br><br>
+		
+		<input type="text" id="noOfPhotographer" name="noOfPhotographer" placeholder="No of Photographer" style="width:100%" required> <br><br>
+		
 				 <h4> Service Information </h4>
 		 
 		 <input type="text" id="travel" name="travel" placeholder="Open to Travel?" style="width:100%" required> <br><br>
 		 
-		
+        <textarea type="text" id="typeOfService" rows="5" cols="10" placeholder="Type of Service" name="typeOfService" required style="width:100%"></textarea><br><br>		
 		 
 		<textarea type="text" id="specialization" rows="5" cols="10" placeholder="Specialization" name="specialization" required style="width:100%"></textarea><br><br>
 		
