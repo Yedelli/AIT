@@ -31,7 +31,7 @@
 				<div class="topnav" id="myTopnav">
 
 					<a href="#home">Home</a>					
-					<a href="aboutus.html">About</a>
+					<a href="about.php">About</a>
 					<a href="contact.php">Contact</a>
 					<a href="help.php">Help</a>
 					<a  id="modal">Login</a>
