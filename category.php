@@ -204,7 +204,7 @@ div.desc {
 	<div class="footer">Click My Pic &copy; 2017 </div>
 	</div>
 	</footer>
-		<!-- Modal -->
+<!-- Modal -->
 	<!-- The Modal -->
 	<div id="myModal" class="modal">
 	<!-- Modal content -->
@@ -302,7 +302,7 @@ div.desc {
 			<h2>CLICK MY PIC</h2>
 		</div>
 		<div class="modal-body">		
-			<form class="form" action="/action_page.php">
+			<form class="form" action="">
 				<div class="w3-section">
 					<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter First Name" name="firstName" required style="width:100%"><br><br>
 					<input class="w3-input w3-border w3-margin-top" type="text" placeholder="Enter Last Name" name="lastName" required style="width:100%"><br><br>		 
@@ -310,7 +310,7 @@ div.desc {
 					<input class="w3-input w3-border w3-margin-bottom" type="tel" placeholder="Enter Contact No" name="contactNo" required style="width:100%"><br><br>
 					<input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" required style="width:100%"><br><br>		  
 					<input class="w3-input w3-border" type="password" placeholder="Confirm Password" name="confirmPassword" required style="width:100%"><br><br>		  
-					<button class="w3-button w3-block w3-green w3-section w3-padding" id="makeProfile" name="makeProfile" type="submit">Make Profile</button><br>
+					<button class="w3-button w3-block w3-green w3-section w3-padding" id="makeProfile" name="makeProfile" type="submit" onclick="location.href = 'makeprofile.php';">Make Profile</button><br>
 					<!--<input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Tell me about Click My Pic News <br><br>-->
 					<button class="w3-button w3-block w3-green w3-section w3-padding" id="signUpbtn" type="submit">Sign Up</button><br>		  
 					<!--<p> Already a member? <a href="#" id="login2"> Login</a></p>-->
@@ -328,10 +328,9 @@ div.desc {
   <div class="modal-content">
     <div class="modal-header">
       <span class="close5">&times;</span>
-      <h3 style="color:red">&nbsp;&nbsp;&nbsp;&nbsp;Hire the right Photographer!</h3>
-	  <p>Instant quotations.Best Prices </p>
+    <pre>  <h3 style="color:red">         Hire the right Photographer!</h3></pre>
     </div>
-    <div class="modal-body">
+    <div class="modal-body1">
 	
 	<form class="form" action="/action_page.php">
 
@@ -340,28 +339,28 @@ div.desc {
 		 <label>
         <input id="photographerType" name="photographerType" list="type" type="text" placeholder="Photographer Type" style="width:100%" required> 
         <datalist id="type"> 
-        	<option label="Wedding Photographer" ></option> 
-        	<option label="Fashion Photographer" ></option> 
-        	<option label="Commercial Photographer" ></option> 
-        	<option label="Kids Photographer" ></option> 
+        	<option value="Wedding Photographer" ></option> 
+        	<option value="Fashion Photographer" ></option> 
+        	<option value="Commercial Photographer" ></option> 
+        	<option value="Kids Photographer" ></option> 
         	
         </datalist>
-		</label><br>
+		</label><br><br>
 
         <input type="text" id="city" name="type" placeholder="City" style="width:100%" required> <br><br>
 
         <label>
         <input id="budget" name="budget" list="budgetlist" type="text" placeholder="Budget" style="width:100%" required> 
         <datalist id="budgetlist"> 
-        	<option label="Less than Rs 5000" ></option> 
-        	<option label="Rs 5000 to Rs 15000" ></option> 
-        	<option label="Rs 15000 to Rs 25000" ></option> 
-        	<option label="More than Rs 25000" ></option> 
+        	<option value="Less than Rs 5000" ></option> 
+        	<option value="Rs 5000 to Rs 15000" ></option> 
+        	<option value="Rs 15000 to Rs 25000" ></option> 
+        	<option value="More than Rs 25000" ></option> 
         	
         </datalist>
-		</label><br>
+		</label><br><br>
 		
-		<textarea type="text" id="address" rows="5" cols="10" placeholder="Please describe your requirements." required style="width:100%"></textarea><br>
+		<textarea type="text" id="address" rows="5" cols="10" placeholder="Please describe your requirements." required style="width:100%"></textarea><br><br>
 		
 		<input type="text" id="fullName" name="fullName" placeholder="Full Name" style="width:100%" required> <br><br>
 		
@@ -380,6 +379,7 @@ div.desc {
   </div>
 
 </div>
+
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");

@@ -147,7 +147,20 @@
     text-decoration: none;
     cursor: pointer;
 }
+/* The Close Button */
+.closeh {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
 
+.closeh:hover,
+.closeh:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
 .modal-header {
     padding: 2px 16px;
      color: white;
@@ -221,6 +234,19 @@ text-decoration:none;
     font-size: 16px;
 	margin: auto;
 }
+#sendEnquiry {
+    background-color: #051939 ; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+	margin: auto;
+}
+
+
 
 
 
