@@ -13,6 +13,7 @@
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
 }
 
 /* Modal Content */
@@ -29,6 +30,22 @@
     animation-name: animatetop;
     animation-duration: 0.4s
 }
+.modal-dialog{
+    overflow-y: initial;
+}
+.modal-body{
+    height: auto;
+    overflow-y: auto;
+}
+
+.modal-dialog1{
+    overflow-y: initial;
+}
+.modal-body1{
+    height: 400px;
+    overflow-y: auto;
+}
+
 
 /* Add Animation */
 @-webkit-keyframes animatetop {

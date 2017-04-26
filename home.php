@@ -325,10 +325,9 @@
   <div class="modal-content">
     <div class="modal-header">
       <span class="close5">&times;</span>
-      <h3 style="color:red">&nbsp;&nbsp;&nbsp;&nbsp;Hire the right Photographer!</h3>
-	  <p>Instant quotations.Best Prices </p>
+    <pre>  <h3 style="color:red">         Hire the right Photographer!</h3></pre>
     </div>
-    <div class="modal-body">
+    <div class="modal-body1">
 	
 	<form class="form" action="/action_page.php">
 
