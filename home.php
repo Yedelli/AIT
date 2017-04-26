@@ -32,8 +32,8 @@
 
 					<a href="#home">Home</a>					
 					<a href="aboutus.html">About</a>
-					<a href="contactus.html">Contact</a>
-					<a href="help.html">Help</a>
+					<a href="contact.php">Contact</a>
+					<a href="help.php">Help</a>
 					<a  id="modal">Login</a>
 					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>			
 				</div>
