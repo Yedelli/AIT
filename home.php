@@ -29,17 +29,11 @@
 		<div class="img">
 			<div class="w3-row">
 				<div class="topnav" id="myTopnav">
-<<<<<<< HEAD:home3.php
+
 					<a href="#home">Home</a>					
 					<a href="aboutus.html">About</a>
 					<a href="contactus.html">Contact</a>
 					<a href="help.html">Help</a>
-=======
-					<a href="home.php">Home</a>					
-					<a href="about.php">About</a>
-					<a href="contact.php">Contact</a>
-					<a href="help.php">Help</a>
->>>>>>> 49f197b0f478372a707b8d03a0757096ae4c05e3:home.php
 					<a  id="modal">Login</a>
 					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>			
 				</div>
