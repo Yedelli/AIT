@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+  <meta name="description" content="Hire great Phoographers">
+  <meta name="keywords" content="bridal photos,candid photography, event photographer, find a photographer,
+  kids photos, local photographer, photographer, professional photography, wedding photographer, commercial photographer">
+  <meta name="author" content="Radhika">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 	<!-- home -->
@@ -288,6 +294,7 @@ div.desc {
 		
 		<div class="img1">
 			<div class="w3-row">
+			<nav>
 				<div class="topnav" id="myTopnav">
 					<a href="home.php">Home</a>					
 					<a href="about.php">About</a>
@@ -296,13 +303,14 @@ div.desc {
 					<a  id="modal">Login</a>
 					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>			
 				</div>
-				
+			</nav>	
 			</div>		
 		</div>
 	</div>
 	</header>
 	
 <br>
+<section>
 <div class="orange">
 <h1> Photographers</h1> 
 
@@ -329,25 +337,7 @@ div.desc {
 	 <input type="text" id="textInput" value=""><br><br>
 	 </form>
  </div> 
- <!--<div class="gallery">
-  <a href="profile.php">
-    <img src="images/3.gif" alt="profile" width="500" height="500">
-  </a>
-  <div class="desc">RR Photography<br>South West,T.T nagar,Delhi</div>
-</div>
- <div class="gallery">
-  <a href="profile.php">
-    <img src="images/4.gif" alt="profile" width="500" height="500">
-  </a>
-  <div class="desc">RR Photography<br>South West,T.T nagar,Delhi</div>
-</div>
- <div class="gallery">
-  <a href="profile.php">
-    <img src="images/7.gif" alt="profile" width="500" height="500">
-  </a>
-  <div class="desc">RR Photography<br>South West,T.T nagar,Delhi</div>
-</div>
--->
+ 
 <div class="w3-row-padding padding">	
 		
 			<div class="w3-col l4">
@@ -411,6 +401,7 @@ div.desc {
 			</div>			
 		
 		</div>
+</section>		
 <footer>
 	<div class="col-12">
 	<div class="footer">Click My Pic &copy; 2017 </div>

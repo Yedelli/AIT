@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+  <meta name="description" content="Hire great Phoographers">
+  <meta name="keywords" content="bridal photos,candid photography, event photographer, find a photographer,
+  kids photos, local photographer, photographer, professional photography, wedding photographer, commercial photographer">
+  <meta name="author" content="Radhika">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- home -->
 	<link rel="stylesheet" href="css/home.css">
@@ -225,6 +232,7 @@ color:#152055;}
 		
 		<div class="img1">
 			<div class="w3-row">
+			<nav>
 				<div class="topnav" id="myTopnav">
 					<a href="home.php">Home</a>					
 					<a href="about.php">About</a>
@@ -233,12 +241,13 @@ color:#152055;}
 					<a  id="modal">Login</a>
 					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>			
 				</div>
-				
+			</nav>	
 			</div>		
 		</div>
 	</div>
 	
 	<div class="img w3-row-padding"></div>
+	
 	</header>
 	
 

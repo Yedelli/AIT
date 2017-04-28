@@ -2,14 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-  <meta charset="UTF-8">
-  <meta name="description" content="Hire great Phoographers">
-  <meta name="keywords" content="bridal photos,candid photography, event photographer, find a photographer,
-  kids photos, local photographer, photographer, professional photography, wedding photographer, commercial photographer">
-  <meta name="author" content="Radhika">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
  <!-- Custom Fonts -->
     
@@ -36,15 +29,14 @@
 		<div class="img">
 			<div class="w3-row">
 				<div class="topnav" id="myTopnav">
-				<nav>
+
 					<a href="#home">Home</a>					
 					<a href="about.php">About</a>
 					<a href="contact.php">Contact</a>
 					<a href="help.php">Help</a>
 					<a  id="modal">Login</a>
-					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>							
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>			
 				</div>
-				</nav>
 				<div class="w3-col s1 l4">
 					<p></p>
 				</div>
@@ -67,139 +59,7 @@
 	
 	<section>
 	<div class="w3-row-padding">
-		<div class="w3-row-padding">			
-			<div class="w3-col l4"><p></p></div>
-				<div class="w3-col s12 l4">
-					<h2>FIND BY CATEGORY</h2>			
-				</div>
-		</div>
-		<div class="w3-row-padding">
-			<div class="w3-col l1"><p></p></div>
-			<div class="w3-col s10 l5">
-				<a  href="category.php">
-				<img id="img"  src="Home page pics/wedding.jpg" ></a>
-			</div>
-			<div class="w3-col l1"><p></p></div>
-			<div class="w3-col s10 m5 l5">
-				<a  href="category.php">
-				<img id="img" src="Home page pics/commercial1.jpg"  ></a>		
-			</div>
-		</div>
-		<br>
 		
-		<div class="w3-row"><p></p></div>
-		<div class="w3-row-padding">
-			<div class="w3-col l1"><p></p></div>
-			<div class="w3-col s10 m5 l3">
-				<a  href="category.php">
-				<img id="img" src="Home page pics/fashion.jpg" ></a>
-			</div>
-			<div class="w3-col l1"><p></p></div>
-			<div class="w3-col s10 l5">
-				<a  href="category.php">
-				<img id="img" src="Home page pics/kids.jpg" ></a>
-			</div>
-		</div>
-		<hr>
-		
-		<div class="w3-row-padding">
-			<div class="w3-col l4"><p></p></div>
-			<div class="w3-col s12 l4">
-				<h2>SEARCH BY CITIES</h2>			
-			</div>
-		</div>
-		<div class="w3-row-padding">	
-		
-			<div class="w3-col l3">
-				<a  href="category.php">
-				<div class="polaroid">
-				<img src="Home page pics/mumbai_img.png" style="width: 100%;" >	
-					<div class="container">
-					<p>MUMBAI</p>
-					</div>
-				</div></a>
-			</div>		
-			<div class="w3-col l3">
-				<a  href="category.php">
-				<div class="polaroid">
-				<img src="Home page pics/delhi_img.png" style="width: 100%;">	
-					<div class="container">
-					<p>DELHI</p>
-					</div>
-				</div></a>
-			</div>
-			<div class="w3-col l3">
-				<a  href="category.php">
-				<div class="polaroid">
-				<img src="Home page pics/banglore_img.png" style="width: 100%;">	
-					<div class="container">
-					<p>BANGLORE</p>
-					</div>
-				</div></a>
-			</div>
-			<div class="w3-col l3">
-				<a  href="category.php">
-				<div class="polaroid">
-				<img src="Home page pics/chennai_img.png" style="width: 100%;">	
-					<div class="container">
-					<p>CHENNAI</p>
-					</div>
-				</div></a>
-			</div>
-		
-		</div>
-		<hr>
-		<div class="w3-row-padding">
-			<div class="w3-col l4"><p></p></div>
-			<div class="w3-col s12 l4">
-				<h2>FAMOUS PHOTOGRAPHERS</h2>			
-			</div>
-			
-		<div class="w3-row-padding">	
-		
-			<div class="w3-col l4">
-				<a href="profile.php">
-				<div class="polaroid">
-				<img src="images/3.gif" style="width: 100%;" >	
-					<div class="container">
-					<p>RR PHOTOGRAPHERS</p>
-					</div>
-				</div></a>
-			</div>		
-			<div class="w3-col l4">
-				<a href="profile.php">
-				<div class="polaroid">
-				<img src="images/10.gif" style="width: 100%;">	
-					<div class="container">
-					<p>ASHISH STUDIOS</p>
-					</div>
-				</div></a>
-			</div>
-			<div class="w3-col l4">
-				<a href="profile.php">
-				<div class="polaroid">
-				<img src="images/11.gif" style="width: 100%;">	
-					<div class="container">
-					<p>AWESOME</p>
-					</div>
-				</div></a>
-			</div>			
-		
-		</div>
-			
-		</div>
-		
-		<hr>
-		<!--<div class="w3-row-padding">
-			
-			<div class="w3-col s10 l6">
-				<h2>ABOUT</h2>			
-			</div>
-			
-			<div class="w3-col s10 l6">
-				<h2>CONTACT US</h2>			
-			</div>
-		</div>-->
 	</div>
 
 	</section>
