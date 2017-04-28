@@ -8,7 +8,7 @@ $logout = false;
 		$logout = true;
 	}
 	
-	$name = $_SESSION['name'];
+	@$name = $_SESSION['name'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -72,7 +72,6 @@ background-color: #6D6D5E;
 					<a href="home.php">Home</a>					
 					<a href="about.php">About</a>
 					<a href="contact.php">Contact</a>
-					<a  id="modal">Login</a>
 					<a  id="<?php if($logout) echo "logout"; else echo "modal"; ?>" href="<?php if($logout) echo "logout.php"; else echo "#"; ?>"><?php if($logout) echo "Logout"; else echo "Login"; ?></a>
 					
 					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>			
@@ -130,7 +129,7 @@ background-color: #6D6D5E;
 			<h2>CLICK MY PIC</h2>
 		</div>
 		<div class="modal-body">
-			<form class="form" action="home.php">
+			<form class="form" action="loginvalidate.php" method="POST">
 			<div class="w3-section">
 				<input class="w3-input w3-border w3-margin-bottom" type="email" placeholder="Enter Email Id" name="email" required style="width:100%"><br><br>		  	  
 				<input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" required style="width:100%"><br><br>
@@ -152,7 +151,7 @@ background-color: #6D6D5E;
 			<h2>CLICK MY PIC</h2>
 		</div>
 		<div class="modal-body">
-			<form class="form" action="home.php">
+			<form class="form" action="insertcustomer.php" method="post">
 				<div class="w3-section">
 					<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter First Name" name="firstName" required style="width:100%"><br><br>
 					<input class="w3-input w3-border w3-margin-top" type="text" placeholder="Enter Last Name" name="lastName" required style="width:100%"><br><br>
@@ -178,7 +177,7 @@ background-color: #6D6D5E;
 			<h2>CLICK MY PIC</h2>
 		</div>
 		<div class="modal-body">
-			<form class="form" action="home.php">
+			<form class="form" action="loginvalidate1.php" method="POST">
 			<div class="w3-section">
 				<input class="w3-input w3-border w3-margin-bottom" type="email" placeholder="Enter Email Id" name="email" required style="width:100%"><br><br>		  	  
 				<input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" required style="width:100%"><br><br>
