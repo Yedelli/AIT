@@ -1,3 +1,15 @@
+<?php
+include 'connect.php';
+
+session_start();
+$logout = false;
+	if(isset($_SESSION['name']))
+	{
+		$logout = true;
+	}
+	
+	$name = $_SESSION['name'];
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,6 +73,7 @@ background-color: #6D6D5E;
 					<a href="about.php">About</a>
 					<a href="contact.php">Contact</a>
 					<a  id="modal">Login</a>
+					<a  id="<?php if($logout) echo "logout"; else echo "modal"; ?>" href="<?php if($logout) echo "logout.php"; else echo "#"; ?>"><?php if($logout) echo "Logout"; else echo "Login"; ?></a>
 					
 					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>			
 				</div>
